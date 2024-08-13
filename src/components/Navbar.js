@@ -2,8 +2,8 @@ const Navbar = () => {
     return ( 
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            News9 Online
+          <a className="navbar-brand" style={{fontFamily: 'Poppins', fontWeight: 700}} href="#">
+            News<span style={{ fontWeight: 400 }}>9</span> Portal
           </a>
           <button
             className="navbar-toggler"
@@ -25,7 +25,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link
+                  Tech
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -36,7 +36,7 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Fashion
                 </a>
                 <ul className="dropdown-menu">
                   <li>

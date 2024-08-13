@@ -5,7 +5,7 @@ const Trending = () => {
     const API_KEY = "0c5e171021c74198b852039622758663";
     useEffect(() => {
         fetch(
-          "https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=" +
+          "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=" +
             API_KEY
         )
           .then((res) => res.json())

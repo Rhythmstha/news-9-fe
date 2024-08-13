@@ -1,9 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import TopNav from "./components/TopNav";
 
 function App() {
   return (
     <>
+      <TopNav />
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">

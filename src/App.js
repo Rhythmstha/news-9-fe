@@ -9,6 +9,8 @@ function App() {
     <>
       <TopNav />
       <Navbar/>
+      <Trending/>
+      
     </>
   );
 }
